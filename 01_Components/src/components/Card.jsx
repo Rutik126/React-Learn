@@ -1,0 +1,16 @@
+import React from 'react'
+
+function Card(props) {
+  return (
+    <>
+      <div className='card'>
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1000" />
+        <h2>{props.user}</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <button>View Profile</button>
+      </div>
+    </>
+  )
+}
+
+export default Card;
